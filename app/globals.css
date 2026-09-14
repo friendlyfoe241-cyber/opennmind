@@ -28,3 +28,12 @@ body {
 .progress-line-active {
   background: linear-gradient(90deg, #000d25 0%, #ffffff 100%);
 }
+
+@keyframes marquee-right {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

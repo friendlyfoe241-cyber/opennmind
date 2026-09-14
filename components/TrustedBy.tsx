@@ -1,13 +1,3 @@
-const LOGOS = [
-  "Vercel",
-  "Linear",
-  "Framer",
-  "Notion",
-  "Loom",
-  "Figma",
-  "Ramp",
-];
-
 export default function TrustedBy() {
   return (
     <section
@@ -20,15 +10,18 @@ export default function TrustedBy() {
           Trusted by teams at
         </p>
 
-        {/* logo strip */}
-        <div className="absolute left-0 right-0 top-[94px] overflow-hidden">
-          <div className="flex items-center justify-between gap-10 px-10 opacity-80">
-            {LOGOS.map((logo) => (
-              <div
-                key={logo}
-                className="whitespace-nowrap font-sFPro text-2xl font-semibold tracking-tight text-black/70"
-              >
-                {logo}
+        {/* logo banner marquee */}
+        <div className="absolute left-0 right-0 top-[94px] h-[107px] overflow-hidden">
+          <div className="flex h-full w-max animate-[marquee-right_30s_linear_infinite]">
+            {[0, 1].map((i) => (
+              <div key={i} className="flex h-full shrink-0">
+                {/* eslint-disable-next-line @next/next/no-img-element -- plain <img> keeps the marquee as an unoptimized CSS translation */}
+                <img
+                  src="/banner.png"
+                  alt="Logos of teams using OpennMind"
+                  className="h-full w-auto"
+                  draggable={false}
+                />
               </div>
             ))}
           </div>
