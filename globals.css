@@ -1,8 +1,0 @@
-@import "tailwindcss";
-
-@theme inline {
-  --font-sFPro: var(--font-sf-pro);
-  --font-sFProRounded: var(--font-sf-pro-rounded);
-  --font-inter: var(--font-inter);
-  --font-shadowsIntoLightTwo: var(--font-shadows-into-light-two);
-}

@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sFPro: var(--font-inter), var(--font-inter);
+  --font-sFProRounded: var(--font-inter);
+  --font-inter: var(--font-inter);
+  --font-shadowsIntoLightTwo: var(--font-shadows-into-light-two);
+
+  --color-shadows-line: #ececec;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+.text-gradient-blue {
+  background: linear-gradient(90deg, #92b1ff 0%, #2f57bd 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.progress-line-active {
+  background: linear-gradient(90deg, #000d25 0%, #ffffff 100%);
+}

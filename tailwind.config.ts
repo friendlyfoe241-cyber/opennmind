@@ -2,17 +2,21 @@ import type { Config } from "tailwindcss";
 
 export default {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
     "./app/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
       fontFamily: {
-        sFPro: ["--font-sf-pro"],
-        sFProRounded: ["--font-sf-pro-rounded"],
-        inter: ["--font-inter"],
-        shadowsIntoLightTwo: ["--font-shadows-into-light-two"],
+        sFPro: ["var(--font-sFPro)"],
+        sFProRounded: ["var(--font-sFProRounded)"],
+        inter: ["var(--font-inter)"],
+        shadowsIntoLightTwo: ["var(--font-shadowsIntoLightTwo)"],
+      },
+      colors: {
+        shadows: {
+          line: "#ececec",
+        },
       },
     },
   },
