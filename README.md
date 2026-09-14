@@ -1,0 +1,2 @@
+# opennmind
+landing page
