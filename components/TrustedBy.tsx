@@ -11,10 +11,10 @@ export default function TrustedBy() {
         </p>
 
         {/* logo banner marquee */}
-        <div className="absolute left-0 right-0 top-[94px] h-[107px] overflow-hidden">
+        <div className="absolute left-0 right-0 top-[102px] h-[45px] overflow-hidden">
           <div className="flex h-full w-max animate-[marquee-right_30s_linear_infinite]">
             {[0, 1].map((i) => (
-              <div key={i} className="flex h-full shrink-0">
+              <div key={i} className="ml-5 flex h-full shrink-0">
                 {/* eslint-disable-next-line @next/next/no-img-element -- plain <img> keeps the marquee as an unoptimized CSS translation */}
                 <img
                   src="/banner.png"
