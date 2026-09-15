@@ -27,7 +27,7 @@ export default function WorkspaceTogether() {
 
           {/* integration banner (overlaps hub) */}
           <div className="relative mt-2 h-[145px] overflow-hidden bg-white">
-            <div className="container-banner-track absolute left-0 top-[-5px] flex w-max">
+            <div className="container-banner-track absolute left-0 top-0 flex w-max">
               <Image
                 src={containerImage}
                 alt=""
