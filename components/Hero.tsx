@@ -4,7 +4,7 @@ import mainContentImage from "../images/Main Content.svg";
 export default function Hero() {
   return (
     <section id="home" className="relative overflow-hidden">
-      <div className="relative flex min-h-[1030px] w-full flex-col overflow-hidden">
+      <div className="relative flex aspect-[16/30] lg:aspect-[16/12.8] w-full flex-col overflow-hidden">
         <Image
           src="/image.png"
           alt=""
