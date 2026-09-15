@@ -14,7 +14,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="pointer-events-none absolute left-0 right-0 top-0 z-50 flex justify-center px-6 pt-2">
+    <header className="pointer-events-none absolute left-0 right-0 top-5 z-50 flex justify-center px-6 pt-2">
       <nav className="pointer-events-auto flex w-full max-w-[1239px] items-center justify-between rounded-full bg-white py-2.5 pl-8 pr-3">
         <a
           href="#"

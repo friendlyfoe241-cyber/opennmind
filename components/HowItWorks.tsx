@@ -60,7 +60,7 @@ export default function HowItWorks() {
         </div>
 
         {/* WhatsApp screenshot */}
-        <div className="absolute left-1/2 top-[268px] w-[1192px] -translate-x-1/2">
+        <div className="absolute left-1/2 top-[348px] w-[1192px] -translate-x-1/2">
           <div className="overflow-hidden rounded-2xl border-2 border-[#EDEDED] bg-white">
             <Image
               src="/WhatsappImage20260602At121519Am1.png"
