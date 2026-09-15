@@ -6,7 +6,7 @@ export default function WorkspaceTogether() {
   return (
     <section id="integrations" className="relative w-full bg-white">
       <div className="relative mx-auto h-[960px] max-w-[1440px]">
-        <h2 className="absolute left-0 right-0 top-[125px] text-center font-shadowsIntoLightTwo text-[50px] leading-[1.02] tracking-[-0.02em] text-black">
+        <h2 className="absolute left-0 right-0 top-[105px] text-center font-shadowsIntoLightTwo text-[50px] leading-[1.02] tracking-[-0.02em] text-black">
           Bring your entire workspace together.
         </h2>
 

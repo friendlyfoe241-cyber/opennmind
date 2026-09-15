@@ -20,7 +20,7 @@ export default function Discover() {
   return (
     <section id="discover" className="relative w-full bg-white">
       <div className="relative mx-auto h-[852px] max-w-[1440px]">
-        <h2 className="absolute left-0 right-0 top-0 text-center font-shadowsIntoLightTwo text-[50px] leading-[1.14] tracking-[-0.02em] text-black">
+        <h2 className="absolute left-0 right-0 top-[45px] text-center font-shadowsIntoLightTwo text-[50px] leading-[1.14] tracking-[-0.02em] text-black">
           From one idea to a validated business.
         </h2>
 
