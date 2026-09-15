@@ -37,3 +37,24 @@ body {
     transform: translateX(0);
   }
 }
+
+@keyframes container-banner-marquee {
+  from {
+    transform: translateX(0) scale(1.06);
+  }
+  to {
+    transform: translateX(-50%) scale(1.06);
+  }
+}
+
+.container-banner-track {
+  animation: container-banner-marquee 24s linear infinite;
+  transform-origin: center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .container-banner-track {
+    animation: none;
+    transform: scale(1.06);
+  }
+}
