@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import footerImage from "../images/ChatgptImageAug16202612_24_21Amphotoroom1.png";
 
 export default function Footer() {
   return (
@@ -38,7 +39,7 @@ export default function Footer() {
              (image at footer-rel 1139, wordmark text at footer-rel 911) */}
         <div className="relative h-full w-full overflow-hidden">
           <Image
-            src="/ChatgptImageAug16202612_24_21Amphotoroom1.png"
+            src={footerImage}
             alt=""
             width={1536}
             height={1024}

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import group136Image from "../images/Group 136.svg";
 import containerImage from "../images/Container.svg";
+import rectangle4Image from "../images/Rectangle4.png";
 
 export default function WorkspaceTogether() {
   return (
@@ -51,7 +52,7 @@ export default function WorkspaceTogether() {
         {/* bottom dashboard image */}
         <div className="absolute left-1/2 top-[551px] w-[1104px] -translate-x-1/2">
           <Image
-            src="/Rectangle4.png"
+            src={rectangle4Image}
             alt="Two-column workspace layout in OpennMind"
             width={1104}
             height={262}

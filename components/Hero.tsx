@@ -1,12 +1,13 @@
 import Image from "next/image";
 import mainContentImage from "../images/Main Content.svg";
+import heroBackgroundImage from "../images/image.png";
 
 export default function Hero() {
   return (
     <section id="home" className="relative overflow-hidden">
       <div className="relative w-full flex-col overflow-hidden">
         <Image
-          src="/image.png"
+          src={heroBackgroundImage}
           alt=""
           fill
           priority

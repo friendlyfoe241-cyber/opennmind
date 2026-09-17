@@ -1,20 +1,23 @@
 import Image from "next/image";
+import mentionImage from "../images/ImageAChatWithinNotionShowingAUserInteractingWithExternalAgentsToKickOffACodingTask.png";
+import assignImage from "../images/ImageNotionDatabaseWithAListOfTasksAndOneTaskBeingAssignedToAnExternalCodingAgent.png";
+import orchestrateImage from "../images/ImageAChatWithAnExternalAgentInNotionShowingItsThoughtProcessReadingDocumentsAndCallingTools.png";
 
 const CARDS = [
   {
     title: "Mention",
     body: "Collaborate with agents like teammates. @mention them in any page, comment, or chat with them directly.",
-    image: "/ImageAChatWithinNotionShowingAUserInteractingWithExternalAgentsToKickOffACodingTask.png",
+    image: mentionImage,
   },
   {
     title: "Assign",
     body: "Hand off work to your agents from any task, or trigger them in parallel.",
-    image: "/ImageNotionDatabaseWithAListOfTasksAndOneTaskBeingAssignedToAnExternalCodingAgent.png",
+    image: assignImage,
   },
   {
     title: "Orchestrate",
     body: "Watch agents think, call tools, and act across Notion and other apps with your review and approval when it matters.",
-    image: "/ImageAChatWithAnExternalAgentInNotionShowingItsThoughtProcessReadingDocumentsAndCallingTools.png",
+    image: orchestrateImage,
   },
 ];
 

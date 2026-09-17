@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import playgroundImage from "../images/ImagePlaygroundForecastEnrollmentViewWithInfantsToddlersJuniorsAndPrejuniorsClassrooms.png";
 
 const TABS = [
   { label: "Discover", highlight: true },
@@ -43,10 +44,10 @@ export default function Discover() {
               <button
                 key={tab.label}
                 onClick={() => setActive(tab.label)}
-                className={`flex h-9 items-center justify-center gap-1 rounded-[70px] px-3 font-inter text-[15px] font-medium leading-[22px] ${
+                className={`flex h-9 items-center justify-center gap-1 rounded-[70px] px-3 font-inter text-[15px] font-medium leading-[22px] transition-all duration-300 ${
                   active === tab.label
-                    ? "bg-white text-gradient-blue shadow-[0_0_1px_rgba(0,0,0,0.04)]"
-                    : "text-[#807E7A]"
+                    ? "bg-white text-gradient-blue shadow-[0_1px_2px_rgba(0,0,0,0.04),0_4px_10px_rgba(0,0,0,0.06)]"
+                    : "text-[#807E7A] hover:bg-white/60 hover:text-black/70"
                 }`}
               >
                 {tab.label}
@@ -68,7 +69,7 @@ export default function Discover() {
         <div className="absolute left-1/2 top-[206px] w-[1204px] -translate-x-1/2 overflow-hidden rounded-[20px] bg-[rgba(68,25,6,0.04)] p-2">
           <div className="overflow-hidden rounded-xl">
             <Image
-              src="/ImagePlaygroundForecastEnrollmentViewWithInfantsToddlersJuniorsAndPrejuniorsClassrooms.png"
+              src={playgroundImage}
               alt="Enrollment forecast view"
               width={1178}
               height={525}

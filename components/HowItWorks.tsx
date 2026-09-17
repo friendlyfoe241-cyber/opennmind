@@ -1,4 +1,5 @@
 import Image from "next/image";
+import whatsappImage from "../images/WhatsappImage20260602At121519Am1.png";
 
 const STEPS = [
   {
@@ -63,7 +64,7 @@ export default function HowItWorks() {
         <div className="absolute left-1/2 top-[348px] w-[1192px] -translate-x-1/2">
           <div className="overflow-hidden rounded-2xl border-2 border-[#EDEDED] bg-white">
             <Image
-              src="/WhatsappImage20260602At121519Am1.png"
+              src={whatsappImage}
               alt="How OpennMind works"
               width={1182}
               height={697}

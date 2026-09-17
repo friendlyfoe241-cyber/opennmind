@@ -1,4 +1,5 @@
 import Image from "next/image";
+import wioraImage from "../images/Rectangle6.png";
 
 const FEATURES = [
   "Daily Tasks",
@@ -71,7 +72,7 @@ export default function Wiora() {
 
         <div className="relative order-last ml-auto hidden lg:block">
           <Image
-            src="/Rectangle6.png"
+            src={wioraImage}
             alt="Wiora assistant chat"
             width={628}
             height={651}

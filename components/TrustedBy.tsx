@@ -1,3 +1,5 @@
+import bannerImage from "../images/banner.png";
+
 export default function TrustedBy() {
   return (
     <section
@@ -17,7 +19,7 @@ export default function TrustedBy() {
               <div key={i} className="ml-5 flex h-full shrink-0">
                 {/* eslint-disable-next-line @next/next/no-img-element -- plain <img> keeps the marquee as an unoptimized CSS translation */}
                 <img
-                  src="/banner.png"
+                  src={bannerImage.src}
                   alt="Logos of teams using OpennMind"
                   className="h-full w-auto"
                   draggable={false}
