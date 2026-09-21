@@ -92,7 +92,7 @@ export default function Growth() {
           <MeetingCard />
         </div>
 
-        <div className="absolute left-1/2 top-[689px] flex w-[924px] -translate-x-1/2 items-center justify-center gap-4">
+        <div className="absolute left-1/2 top-[689px] flex w-[924px] -translate-x-1/2 items-center justify-center gap-4 rounded-[40px] border-2 border-[#000000] bg-white px-6 py-4 shadow-[0_9px_6px_rgba(0,0,0,0.03)]">
           <svg width="31" height="32" viewBox="0 0 31 32" fill="none">
             <path
               d="M29.56 14.53 16.27 27.82a5.84 5.84 0 0 1-8.28 0 5.84 5.84 0 0 1 0-8.28L16.38 3.15A4.63 4.63 0 0 1 24.57 11.3L12.16 23.72a2.14 2.14 0 0 1-3.05 0 2.14 2.14 0 0 1 0-3.05L20.34 7.37"
