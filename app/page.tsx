@@ -6,6 +6,7 @@ import WorkspaceTogether from "@/components/WorkspaceTogether";
 import Discover from "@/components/Discover";
 import Wiora from "@/components/Wiora";
 import Growth from "@/components/Growth";
+import LaunchSection from "@/components/LaunchSection";
 import Collaboration from "@/components/Collaboration";
 import Footer from "@/components/Footer";
 
@@ -21,11 +22,8 @@ export default function Home() {
         <Discover />
         <Wiora />
         <Growth />
-        {/* large whitespace band in the design between Growth and Collaboration,
-            containing a single hairline divider (design y=6965) */}
-        <div aria-hidden className="relative h-[1311px] w-full bg-white">
-          <div className="absolute left-0 top-[1177px] h-px w-full bg-[#D9D9D9]" />
-        </div>
+        {/* web launch section: headline + app banner above the dashboard image */}
+        <LaunchSection />
         <Collaboration />
       </main>
       <Footer />
