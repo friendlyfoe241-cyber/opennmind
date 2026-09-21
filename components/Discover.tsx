@@ -21,17 +21,25 @@ export default function Discover() {
   return (
     <section id="discover" className="relative w-full bg-white">
       <div className="relative mx-auto h-[852px] max-w-[1440px]">
-        <h2 className="absolute left-0 right-0 top-[45px] text-center font-shadowsIntoLightTwo text-[50px] leading-[1.14] tracking-[-0.02em] text-black">
-          From one idea to a validated business.
+        <h2 className="absolute left-0 right-0 top-[75px] text-center">
+          <span className="font-sFPro text-[50px] font-normal leading-[1.07] tracking-[-0.03em] text-[#1D1E20]">
+            From one idea to a 
+          </span>
+          <span className="pl-[3px] ml-2 font-shadowsIntoLightTwo text-[50px] leading-[1.1] text-[#1D1E20]">
+            validated
+          </span>
+          <span className=" pl-[8px] font-sFPro text-[50px] font-normal leading-[1.07] tracking-[-0.03em] text-[#1D1E20]">
+            business.
+          </span>
         </h2>
 
         {/* tab pill row */}
         <div className="absolute left-1/2 top-[137px] flex -translate-x-1/2 items-center justify-center">
           <button
             aria-label="previous tab"
-            className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-[rgba(68,25,6,0.04)] bg-white/30"
+            className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-[rgba(68,25,6,0.04)] bg-[#F6F6F6]"
           >
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" className="rotate-180">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
               <path
                 d="M8.33 18.33L0 10L8.33 1.67l1.48 1.48-6.86 6.85 6.86 6.85-1.48 1.48Z"
                 fill="#DADADA"
@@ -57,9 +65,9 @@ export default function Discover() {
 
           <button
             aria-label="next tab"
-            className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-[rgba(68,25,6,0.04)] bg-white/30"
+            className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-[rgba(68,25,6,0.04)] bg-[#F6F6F6]"
           >
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" className="rotate-180">
               <path d="M8.33 18.33L0 10L8.33 1.67l1.48 1.48-6.86 6.85 6.86 6.85-1.48 1.48Z" fill="#DADADA" />
             </svg>
           </button>

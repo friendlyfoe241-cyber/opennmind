@@ -1,5 +1,6 @@
 import Image from "next/image";
 import wioraImage from "../images/Rectangle6.png";
+import wioraCompsImage from "../images/Wiora-comps.svg";
 
 const FEATURES = [
   "Daily Tasks",
@@ -30,28 +31,21 @@ export default function Wiora() {
     <section id="about" className="relative -mt-10 w-full overflow-hidden bg-[#121216]">
       <div className="mx-auto flex h-[907px] w-full max-w-[1200px] items-center px-6">
         <div className="relative z-10 flex max-w-[440px] flex-col items-start">
-          <h2 className="font-sFPro text-[80px] font-semibold leading-[70px] text-white">
-            Meet Wiora,
-            <br />
+          <h2 className="font-sFPro text-[50px] font-semibold leading-[70px] text-white">
+            Meet <span className="text-[80px] inline-block bg-[linear-gradient(130deg,#38bdf8,#312e81)] bg-clip-text text-transparent">Wiora</span>, <br />
             your AI building
             <br />
             companion
           </h2>
 
-          <div className="mt-6 flex items-center gap-3">
-            {/* brand marks (decorative wordmarks) */}
-            <span className="font-sFPro text-lg font-semibold text-white/90">
-              OpenAI
-            </span>
-            <span className="font-sFPro text-lg font-semibold text-white/90">
-              Claude
-            </span>
-            <span className="font-sFPro text-lg font-semibold text-white/90">
-              Gemini
-            </span>
-            <span className="font-sFPro text-lg font-semibold text-white/90">
-              Alpha
-            </span>
+          <div className="mt-6 flex items-center">
+            <Image
+              src={wioraCompsImage}
+              alt=""
+              width={260}
+              height={30}
+              className="h-auto w-auto"
+            />
           </div>
 
           <p className="mt-6 max-w-[420px] font-sFPro text-lg leading-7 text-white opacity-80">

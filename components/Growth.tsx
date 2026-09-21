@@ -65,8 +65,16 @@ export default function Growth() {
   return (
     <section id="growth" className="relative w-full overflow-hidden bg-white">
       <div className="relative mx-auto h-[876px] max-w-[1440px]">
-        <h2 className="absolute left-1/2 top-[74px] w-[761px] -translate-x-1/2 text-center font-sFPro text-[50px] font-medium leading-[1.07] tracking-[-0.03em] text-[#1D1E20]">
-          Built to help you grow, not just generate.
+        <h2 className="absolute left-0 right-0 top-[65px] text-center">
+          <span className="font-sFPro text-[50px] font-normal leading-[1.07] tracking-[-0.03em] text-[#1D1E20]">
+            Built to help you
+          </span>
+          <span className="pl-[5px] ml-2 font-shadowsIntoLightTwo text-[66px] leading-[1.1] text-[#1D1E20]">
+            grow
+          </span>
+          <span className=" pl-[0px] font-sFPro text-[50px] font-normal leading-[1.07] tracking-[-0.03em] text-[#1D1E20]">
+            , not just generate.
+          </span>
         </h2>
 
         <p className="absolute left-1/2 top-[159px] w-[639px] -translate-x-1/2 text-center font-sFPro text-2xl leading-[33px] tracking-[-0.0083em] text-[#31373D]">

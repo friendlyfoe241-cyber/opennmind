@@ -26,8 +26,13 @@ export default function HowItWorks() {
   return (
     <section id="how-it-works" className="relative w-full bg-white">
       <div className="relative mx-auto h-[1141px] max-w-[1440px]">
-        <h2 className="absolute left-0 right-0 top-[75px] text-center font-shadowsIntoLightTwo text-[50px] leading-[1.1] text-black">
-          How it works?
+        <h2 className="absolute left-0 right-0 top-[75px] text-center">
+          <span className="font-sFPro text-[50px] font-normal leading-[1.07] tracking-[-0.03em] text-[#1D1E20]">
+            How it
+          </span>
+          <span className="pl-[3px] ml-2 font-shadowsIntoLightTwo text-[50px] leading-[1.1] text-[#1D1E20]">
+            works?
+          </span>
         </h2>
 
         {/* steps */}
