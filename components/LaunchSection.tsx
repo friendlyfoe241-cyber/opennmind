@@ -6,10 +6,16 @@ export default function LaunchSection() {
   return (
     <section className="relative w-full bg-white">
       <div className="relative mx-auto h-[1100px] max-w-[1440px]">
-        <h2 className="absolute left-0 right-0 top-[150px] text-center font-shadowsIntoLightTwo text-[50px] leading-[1.14] tracking-[-0.02em] text-black">
-          You can launch in hours,
-          <br />
-          Growth still takes weeks.
+        <h2 className="absolute left-0 right-0 top-[65px] text-center">
+          <span className="font-sFPro text-[50px] font-normal leading-[1.07] tracking-[-0.03em] text-[#1D1E20]">
+            You can launch in hours, <br/>
+          </span>
+          <span className="pl-[5px] ml-2 font-shadowsIntoLightTwo text-[66px] leading-[1.1] text-[#1D1E20]">
+            Growth
+          </span>
+          <span className=" pl-[8px] font-sFPro text-[50px] font-normal leading-[1.07] tracking-[-0.03em] text-[#1D1E20]">
+            still takes weeks.
+          </span>
         </h2>
 
         {/* Frame banner sits directly above the dashboard image */}
