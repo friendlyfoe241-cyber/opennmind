@@ -27,12 +27,12 @@ export default function WorkspaceTogether() {
               width={1096}
               height={158}
               priority
-              className="absolute left-10 top-23"
+              className="absolute left-10 top-23 z-20"
             />
           </div>
 
           {/* integration banner (overlaps hub) */}
-          <div className="relative mt-2 h-[145px] overflow-hidden bg-white">
+          <div className="relative mt-2 h-[145px] overflow-hidden bg-white z-10">
             <div className="container-banner-track absolute left-0 top-0 flex w-max">
               <Image
                 src={containerImage}

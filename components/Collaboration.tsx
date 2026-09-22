@@ -28,7 +28,7 @@ export default function Collaboration() {
         {CARDS.map((card, i) => (
           <div
             key={card.title}
-            className="absolute top-0 flex h-[443px] w-[366px] flex-col overflow-hidden rounded-[10px] border border-[rgba(203,203,239,0.44)] bg-white"
+            className="absolute top-15 flex h-[443px] w-[366px] flex-col overflow-hidden rounded-[10px] border border-[rgba(203,203,239,0.44)] bg-white"
             style={{ left: [129, 523, 917][i] }}
           >
             <div className="flex flex-col gap-1 px-8 pt-7">

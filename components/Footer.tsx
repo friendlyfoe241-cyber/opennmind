@@ -41,12 +41,12 @@ export default function Footer() {
           <Image
             src={footerImage}
             alt=""
-            width={1536}
-            height={1024}
-            className="absolute left-1/2 h-[1024px] w-[1536px] max-w-none -translate-x-1/2 object-cover"
+            width={1036}
+            height={824}
+            className="absolute left-1/2 h-[950px] w-[1336px] max-w-none -translate-x-1/2 object-cover"
             style={{ top: 1139 }}
           />
-          <span className="absolute left-0 top-[911px] block w-full select-none text-center font-shadowsIntoLightTwo text-[375px] leading-[1.08] text-black">
+          <span className="absolute left-0 top-[911px] block w-full select-none text-center font-shadowsIntoLightTwo text-[305px] leading-[1.08] text-black">
             OpennMind
           </span>
         </div>

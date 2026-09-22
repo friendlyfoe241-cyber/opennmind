@@ -55,7 +55,7 @@ export default function Discover() {
                 className={`flex h-9 items-center justify-center gap-1 rounded-[70px] px-3 font-inter text-[15px] font-medium leading-[22px] transition-all duration-300 ${
                   active === tab.label
                     ? "bg-white text-gradient-blue shadow-[0_1px_2px_rgba(0,0,0,0.04),0_4px_10px_rgba(0,0,0,0.06)]"
-                    : "text-[#807E7A] hover:bg-white/60 hover:text-black/70"
+                    : "text-[#807E7A] hover:bg-white/100 hover:text-black/70"
                 }`}
               >
                 {tab.label}

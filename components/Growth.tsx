@@ -1,6 +1,6 @@
 function MeetingCard() {
   return (
-    <div className="w-[580px] shrink-0 rounded-[20px] border border-[#C5C5C5] bg-[#F3F3F3] pt-7">
+    <div className="w-[580px] h-[330px] shrink-0 rounded-[20px] border border-[#C5C5C5] bg-[#F3F3F3] pt-7">
       <div className="relative mx-6 rounded-[20px] border border-[#DDD] bg-white px-6 pb-6">
         <div className="flex items-center gap-4 pt-6">
           <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -82,17 +82,43 @@ export default function Growth() {
           helping you move from ideas to real results.
         </p>
 
-        <div className="absolute -left-[180px] top-[354px]">
+       {/* <div className="pointer-events-none absolute inset-x-0 top-[354px] z-20 h-[560px] blur-[6px] [mask-image:radial-gradient(ellipse_at_center,transparent_0%,transparent_26%,rgba(0,0,0,0.35)_46%,rgba(0,0,0,0.8)_62%,rgba(0,0,0,1)_100%)]" />
+        <div className="absolute -left-[210px] top-[354px]">
           <MeetingCard />
         </div>
-        <div className="absolute left-[430px] top-[354px]">
+        <div className="absolute left-[400px] top-[354px] z-10">
           <MeetingCard />
         </div>
-        <div className="absolute left-[1039px] top-[354px]">
+        <div className="absolute left-[1009px] top-[354px] blur-md [mask-image:linear-gradient(to_left,black_0%,transparent_100%)]">
           <MeetingCard />
-        </div>
+        </div> */}
+        <div className="relative w-full h-[900px] overflow-hidden">
+  {/* 1. THE CARDS */}
+  {/* Left Card (Blurred) */}
+  <div className="absolute -left-[250px] top-[319px]">
+    <MeetingCard />
+  </div>
 
-        <div className="absolute left-1/2 top-[689px] flex w-[924px] -translate-x-1/2 items-center justify-center gap-4 rounded-[40px] border-2 border-[#000000] bg-white px-6 py-4 shadow-[0_9px_6px_rgba(0,0,0,0.03)]">
+  {/* Center Card (Clear & Visible) */}
+  <div className="absolute left-[360px] top-[319px] z-10">
+    <MeetingCard />
+  </div>
+
+  {/* Right Card (Blurred) */}
+  <div className="absolute left-[969px] top-[319px]">
+    <MeetingCard />
+  </div>
+
+  {/* 2. THE BLUR GRADIENT OVERLAYS */}
+  {/* Left Edge Progressive Blur */}
+  <div className="pointer-events-none absolute left-0 top-[354px] z-20 h-[560px] w-[350px] backdrop-blur-md [mask-image:linear-gradient(to_right,rgba(0,0,0,1)_0%,rgba(0,0,0,0)_100%)]" />
+
+  {/* Right Edge Progressive Blur */}
+  <div className="pointer-events-none absolute right-0 top-[354px] z-20 h-[560px] w-[350px] backdrop-blur-md [mask-image:linear-gradient(to_left,rgba(0,0,0,1)_0%,rgba(0,0,0,0)_100%)]" />
+</div>
+
+
+        <div className="absolute left-1/2 top-[629px] z-30 flex w-[924px] -translate-x-1/2 items-center justify-center gap-4 rounded-[60px] border-2 border-[#000000] bg-white px-6 py-4 shadow-[0_9px_6px_rgba(0,0,0,0.03)]">
           <svg width="31" height="32" viewBox="0 0 31 32" fill="none">
             <path
               d="M29.56 14.53 16.27 27.82a5.84 5.84 0 0 1-8.28 0 5.84 5.84 0 0 1 0-8.28L16.38 3.15A4.63 4.63 0 0 1 24.57 11.3L12.16 23.72a2.14 2.14 0 0 1-3.05 0 2.14 2.14 0 0 1 0-3.05L20.34 7.37"
