@@ -5,7 +5,7 @@ import playgroundImage from "../images/ImagePlaygroundForecastEnrollmentViewWith
 export default function LaunchSection() {
   return (
     <section className="relative w-full bg-white">
-      <div className="relative mx-auto h-[1100px] max-w-[1440px]">
+      <div className="relative mx-auto h-[1260px] max-w-[1440px]">
         <h2 className="absolute left-0 right-0 top-[65px] text-center">
           <span className="font-sFPro text-[50px] font-normal leading-[1.07] tracking-[-0.03em] text-[#1D1E20]">
             You can launch in hours, <br/>
