@@ -4,8 +4,8 @@ import heroBackgroundImage from "../images/image.png";
 
 export default function Hero() {
   return (
-    <section id="home" className="relative overflow-hidden">
-      <div className="relative w-full flex-col overflow-hidden">
+    <section id="home" className="relative h-[1000px] overflow-hidden">
+      <div className="relative h-full w-full flex-col overflow-hidden">
         <Image
           src={heroBackgroundImage}
           alt=""
@@ -15,7 +15,7 @@ export default function Hero() {
           className="object-cover"
         />
         <div className="relative flex flex-col items-center px-6 pt-[186px] text-center">
-          
+          {/* [calc(100vh+380px)] */}
           
           <p className="relative inline-flex h-[35px] w-[246px] items-center justify-center gap-1 font-sFPro text-[14px] leading-none text-black">
             <svg
