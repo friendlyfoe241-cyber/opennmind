@@ -24,14 +24,14 @@ export default function LaunchSection() {
           alt=""
           width={1178}
           height={125}
-          className="absolute left-1/2 top-[290px] h-[125px] w-[1178px] -translate-x-1/2"
+          className="absolute left-1/2 top-[250px] h-[125px] w-[1178px] -translate-x-1/2"
         />
         <Image
           src={playgroundImage}
           alt=""
           width={1178}
           height={525}
-          className="absolute left-1/2 top-[445px] h-auto w-[1178px] -translate-x-1/2"
+          className="absolute left-1/2 top-[405px] h-auto w-[1178px] -translate-x-1/2"
         />
       </div>
     </section>
