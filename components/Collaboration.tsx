@@ -27,7 +27,7 @@ export default function Collaboration() {
       {/* grey line divider separating this section from the launch content above */}
       <div className="absolute left-0 top-0 h-px w-full bg-[#D9D9D9]" />
       <div className="relative mx-auto h-[930px] max-w-[1440px]">
-        <h2 className="absolute left-0 right-0 top-[170px] text-center">
+        <h2 className="absolute left-0 right-0 top-[140px] text-center">
           <span className="font-sFPro text-[50px] font-normal leading-[1.07] tracking-[-0.03em] text-[#1D1E20]">
             Built for teams. Ready for
           </span>

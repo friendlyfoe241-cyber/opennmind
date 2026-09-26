@@ -5,8 +5,8 @@ import playgroundImage from "../images/ImagePlaygroundForecastEnrollmentViewWith
 export default function LaunchSection() {
   return (
     <section className="relative w-full bg-white">
-      <div className="relative mx-auto h-[1260px] max-w-[1440px]">
-        <h2 className="absolute left-0 right-0 top-[65px] text-center">
+      <div className="relative mx-auto h-[1000px] max-w-[1440px]">
+        <h2 className="absolute left-0 right-0 top-[95px] text-center">
           <span className="font-sFPro text-[50px] font-normal leading-[1.07] tracking-[-0.03em] text-[#1D1E20]">
             You can launch in hours, <br/>
           </span>
@@ -24,14 +24,14 @@ export default function LaunchSection() {
           alt=""
           width={1178}
           height={125}
-          className="absolute left-1/2 top-[250px] h-[125px] w-[1178px] -translate-x-1/2"
+          className="absolute left-1/2 top-[300px] h-[125px] w-[1178px] -translate-x-1/2"
         />
         <Image
           src={playgroundImage}
           alt=""
           width={1178}
           height={525}
-          className="absolute left-1/2 top-[405px] h-auto w-[1178px] -translate-x-1/2"
+          className="absolute left-1/2 top-[475px] h-auto w-[1178px] -translate-x-1/2"
         />
       </div>
     </section>
